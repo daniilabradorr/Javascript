@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Crud Users App</title>
+    <link rel="stylesheet" href="/src/styles.css"/>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Javascript Crud Users App</h1>
+      <p class="note">
+        ⚠️ Los cambios (añadir, editar, eliminar) son solo locales en esta sesión 
+        y no se guardan realmente en la API de prueba.
+      </p>
+      <div class="container">
+        <div class="form-container">
+          <form id="user-form">
+            <input type="text" id="name" placeholder="Name" required />
+            <input type="email" id="email" placeholder="Email" required />
+            <button type="submit">Add User</button>
+          </form>
+        </div>
+        <div class="user-list">
+          <ul id="user-list"></ul>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
