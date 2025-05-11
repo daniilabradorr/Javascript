@@ -1,5 +1,5 @@
 ## Buscador de Películas (OMDb API)
-Podeís usarlo en : 
+Podeís ver su uso en el webm
 
 Este proyecto es un pequeño buscador de películas que interactúa con la API de OMDb ([https://www.omdbapi.com/](https://www.omdbapi.com/)). Su objetivo principal es **practicar JavaScript**, trabajar la lógica de peticiones asíncronas, manipulación del DOM y gestión de eventos, dejando el estilo al mínimo para centrar la atención en el código.
 
