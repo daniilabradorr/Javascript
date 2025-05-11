@@ -20,7 +20,7 @@ const hourlyContainer  = document.getElementById('hourlyContainer');
 const hourlyCards      = document.getElementById('hourlyCards');
 
 // 2. Mi API key
-const apiKey = '620883a70137772b963b2b6d943f285f';
+const apiKey = 'Ejemplo';
 
 // 3. Map de comunidades en español
 const statesMap = {
