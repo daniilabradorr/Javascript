@@ -1,5 +1,5 @@
 # Mini Ecommerce - Ejercicio de práctica de Drag and Drop
-
+(El estilo es lo justo, la importancia lo tiene el JavaScript)
 Este es un Ejercicio de ecommerce de práctica donde se implementa una funcionalidad básica de **drag and drop** para añadir productos al carrito, junto con otras características comunes en un ecommerce. El Ejercicio es un ejercicio para mejorar el entendimiento de cómo trabajar con **DOM**, **localStorage** y la interacción con el usuario en la web.
 
 ## Características del Ejercicio
