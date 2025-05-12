@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Ecommerce</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Mini Ecommerce</div>
+            <div class="cart-info">
+                <span id="cart-count">0</span> artículos en el carrito
+            </div>
+        </nav>
+    </header>
+
+    <section class="landing-page">
+        <div class="hero">
+            <h1>Bienvenidos a nuestro Ecommerce</h1>
+            <p>Descubre nuestros productos, arrástralos al carrito y compra con facilidad.</p>
+            <input type="text" id="search-bar" placeholder="Buscar productos..." oninput="searchProducts()">
+        </div>
+    </section>
+
+    <main>
+        <section class="product-list">
+            <h2>Productos</h2>
+            <div class="products">
+                <!-- Los productos se mostrarán aquí -->
+            </div>
+        </section>
+
+        <section class="cart" id="cart" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2>Carrito</h2>
+            <ul id="cart-items"></ul>
+            <div id="total">Total: $0</div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo-footer">
+                <img src="src/img/icon.svg" alt="Logo" width="50">
+            </div>
+            <div class="links-footer">
+                <a href="https://github.com/daniilabradorr?tab=repositories" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/daniel-labrador-benito-6b794727b/" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+        <p>&copy; 2025 Mini Ecommerce. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="src/main.js"></script>
+</body>
+</html>
